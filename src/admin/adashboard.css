@@ -1,0 +1,97 @@
+.card-1 {
+	background-color: #ffd31d; /* Yellow */
+  }
+  
+  .card-2 {
+	background-color: #4caf50; /* Green */
+  }
+  
+  .card-3 {
+	background-color: #2196f3; /* Blue */
+  }
+  
+  .custom-card {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease-in-out;
+	margin-bottom: 20px;
+  }
+  
+  .custom-card:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-background {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto 15px;
+  }
+  
+  .icon {
+	font-size: 40px;
+	color: #555;
+  }
+  
+  .text {
+	margin-bottom: 20px;
+  }
+  
+
+
+  /* notification */
+
+  .todo {
+	background-color: #ffffff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .head {
+	background-color: #f8f9fa;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	border-radius: 8px 8px 0 0;
+  }
+  
+  .head h3 {
+	margin: 0;
+	font-size: 20px;
+	color: #333;
+  }
+  
+  .todo-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .notification-item {
+	padding: 15px;
+	border-bottom: 1px solid #e0e0e0;
+	transition: background-color 0.3s ease;
+  }
+  
+  .notification-item:last-child {
+	border-bottom: none;
+  }
+  
+  .notification-item:hover {
+	background-color: #f0f0f0;
+  }
+  
+  .notification-content {
+	margin-left: 10px;
+  }
+  
+  .notification-content p {
+	margin: 0;
+	font-size: 16px;
+	color: #555;
+  }
+  

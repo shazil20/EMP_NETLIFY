@@ -1,0 +1,62 @@
+/* Employe.css */
+
+.employee-list {
+  display: grid;
+  gap: 20px;
+}
+
+.employee-item {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.employee-item:hover {
+  transform: translateY(-5px);
+}
+
+.employee-avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.employee-details {
+  margin-left: 20px;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .employee-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Employe.css */
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.btn-outline-secondary {
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column;
+  }
+
+  .form-control {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+/* styles.css or your custom CSS file */
+.custom-card {
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.custom-card-leave {
+    background-color: #e6f7ff; /* Light blue background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.custom-card .card-body,
+.custom-card-leave .card-body {
+    padding: 1.25rem; /* Adjust padding inside the cards */
+}
